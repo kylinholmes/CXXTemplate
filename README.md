@@ -8,7 +8,7 @@ git clone https://github.com/kylinholmes/CXXTemplate ${ProjectName}
 cd ${ProjectName} && rm -rf .git && git init
 ```
 
-### build 
+### How to Build 
 genorate build file
 ```bash
 mkdir build && cmake cmake -B build -S .
@@ -17,6 +17,12 @@ build
 ```bash
 cmake --build build/    
 ```
+clean
+```bash
+rm -rf build
+```
+
+----
 ## Note
 - if you use `vcpkg`, set a env variable `VCPKG_CMAKE`
 
