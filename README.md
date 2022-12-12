@@ -1,5 +1,6 @@
 # CXXTemplate
 This is used to create a cpp project quickly
+
 [中文](https://github.com/kylinholmes/CXXTemplate/blob/main/README.zh.md)
 ## Usage
 use this template

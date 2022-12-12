@@ -1,5 +1,6 @@
 # CXXTemplate
 这个模板用于快速创建C++项目
+
 [English](https://github.com/kylinholmes/CXXTemplate#readme)
 ## 用法
 
