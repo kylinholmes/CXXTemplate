@@ -8,7 +8,7 @@
 git clone https://github.com/kylinholmes/CXXTemplate
 cd CXXTemplate && rm -rf .git && git init
 ```
-*需要手动重命名*
+*需要手动重命名项目·*
 ### 如何构建项目 
 生成构建文件
 ```bash
