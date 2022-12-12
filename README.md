@@ -2,12 +2,12 @@
 This is used to create a cpp project quickly
 
 ## Usage
-use this template, `${ProjectName}` should set by yourself
+use this template
 ```bash
-git clone https://github.com/kylinholmes/CXXTemplate ${ProjectName}
-cd ${ProjectName} && rm -rf .git && git init
+git clone https://github.com/kylinholmes/CXXTemplate
+cd CXXTemplate && rm -rf .git && git init
 ```
-
+*rename project manually*
 ### How to Build 
 genorate build file
 ```bash
