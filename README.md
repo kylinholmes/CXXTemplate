@@ -1,5 +1,5 @@
 # CXXTemplate
-This is used to creating a cpp project quickly
+This is used to create a cpp project quickly
 
 ## Usage
 use this template, `${ProjectName}` should set by yourself
