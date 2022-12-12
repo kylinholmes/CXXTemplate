@@ -24,12 +24,15 @@ rm -rf build
 
 ----
 ## Note
+- `cmake` is required, plz make sure you have installed. Or refer to https://cmake.org/
 - if you use `vcpkg`, set a env variable `VCPKG_CMAKE`
 
 like
 ```bash
 export VCPKG_CMAKE=/Users/kylin/vcpkg/scripts/buildsystems/vcpkg.cmake
 ```
+
+
 ## Tag
 `main` => command line app
 
