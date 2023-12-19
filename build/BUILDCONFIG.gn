@@ -1,0 +1,6 @@
+set_default_toolchain("//build/toolchains:clang")
+
+cflags_cc = [ "-std=c++14" ]
+include_dirs = [ 
+    "//",
+]
