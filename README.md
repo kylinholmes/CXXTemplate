@@ -1,40 +1,34 @@
 # CXXTemplate
 This is used to create a cpp project quickly
 
-[简体中文](https://github.com/kylinholmes/CXXTemplate/blob/main/README.zh_cn.md)
 ## Usage
 use this template
 ```bash
-git clone https://github.com/kylinholmes/CXXTemplate
-cd CXXTemplate && rm -rf .git && git init
+git clone https://github.com/kylinholmes/CXXTemplate demo
+cd demo && rm -rf .git && git init
 ```
 *rename project manually*
+
 ### How to Build 
 genorate build file
 ```bash
-mkdir build && cmake cmake -B build -S .
+gn gen out
 ```
+
 build 
 ```bash
-cmake --build build/    
+ninja -C out
 ```
 clean
 ```bash
-rm -rf build
+rm -rf out
+```
+
+export compile_commands.json
+```bash
+ninja -C out/ -t compdb cc cxx > compile_commands.json
 ```
 
 ----
 ## Note
-- `cmake` is required, plz make sure you have installed. Or refer to https://cmake.org/
-- if you use `vcpkg`, set a env variable `VCPKG_CMAKE`
-
-like
-```bash
-export VCPKG_CMAKE=/Users/kylin/vcpkg/scripts/buildsystems/vcpkg.cmake
-```
-
-
-## Tag
-`main` => command line app
-
-~~`android` => android app with ndk~~
+- `gn` is required, plz make sure you have installed. Or refer to https://gn.googlesource.com/gn/+/main/docs/quick_start.md

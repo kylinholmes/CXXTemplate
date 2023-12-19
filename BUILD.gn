@@ -1,0 +1,3 @@
+group("executable") {
+    deps = [ "//src:main" ]
+}
